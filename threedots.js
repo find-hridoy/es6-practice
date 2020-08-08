@@ -1,0 +1,12 @@
+const age = [15, 17, 19, 30];
+const age2 = [25, 26, 32, 34];
+const allAge = [...age, 40, ...age2];
+// console.log(allAge);
+const a = 50;
+const b = 48;
+const c = 45;
+const largest = Math.max(a, b, c);
+// console.log(largest);
+const abc = [50, 49, 61];
+const largeNumber = Math.max(...abc);
+console.log(largeNumber);
